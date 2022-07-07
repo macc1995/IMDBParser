@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImdbParser", "ImdbParser\ImdbParser.csproj", "{B7330C75-8718-4C6B-A213-71DFCA83F2D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlUtils", "..\MySqlUtils\MySqlUtils\MySqlUtils.csproj", "{5539F04A-1306-4659-ACB4-DEC52490764F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7330C75-8718-4C6B-A213-71DFCA83F2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7330C75-8718-4C6B-A213-71DFCA83F2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7330C75-8718-4C6B-A213-71DFCA83F2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7330C75-8718-4C6B-A213-71DFCA83F2D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5539F04A-1306-4659-ACB4-DEC52490764F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5539F04A-1306-4659-ACB4-DEC52490764F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5539F04A-1306-4659-ACB4-DEC52490764F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5539F04A-1306-4659-ACB4-DEC52490764F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F166EDA-00AF-4769-A87C-B957D14D1860}
+	EndGlobalSection
+EndGlobal
